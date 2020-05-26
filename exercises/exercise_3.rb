@@ -6,3 +6,8 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+# pp Store.all
+# puts "-----after-----"
+Store.find_by(id: 3).destroy
+
+# pp Store.all
